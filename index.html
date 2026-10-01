@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada Divertida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="card">
+        <div class="icon-badge">🔢</div>
+        <h1>Tabuada</h1>
+        <p class="subtitle">Escolha um número para gerar a tabuada completa</p>
+        <hr>
+        <form action="tabuada.php" method="post">
+            <p>
+                <label for="numero">Digite um número:</label>
+                <input type="number" name="numero" id="numero" placeholder="Ex: 7" required autofocus>
+            </p>
+            <p class="buttons-group">
+                <input type="submit" value="Calcular">    
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </main>
+</body>
+</html>
